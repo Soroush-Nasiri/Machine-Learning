@@ -9,12 +9,3 @@ Gaussian classifiers implemented from scratch to predict protein localization fr
 | c | Fit full-covariance QDA with regularization, compare accuracy and parameter counts, and discuss classes with only two samples. |
 
 Test accuracy: **81.82%** for Gaussian NB with floor `1e-4`; **80.81%** for QDA with `epsilon = 1e-4`. Confusion matrix rows are predictions and columns are true labels.
-
-## Run
-
-```bash
-pip install -r requirements.txt
-jupyter notebook Ecoli-Gaussian-Classifier.ipynb
-```
-
-Run the notebook from top to bottom. The dataset and saved outputs are included.
