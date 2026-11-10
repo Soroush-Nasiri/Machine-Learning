@@ -1,4 +1,4 @@
-# SMS Spam Classification
+# Spam/Ham Classifier
 
 Multinomial Naive Bayes implemented from scratch to classify messages as ham or spam. Uses the supplied 5,572-message CSV with separate fitting, validation, and test sets.
 
@@ -17,7 +17,7 @@ Test accuracy: **97.94%**. ROC AUC: **0.97579**. Confusion matrix rows are predi
 
 ```bash
 pip install -r requirements.txt
-jupyter notebook ML_HW1_Q2_810803098_Nasiri.ipynb
+jupyter notebook Spam-Ham-Classifier.ipynb
 ```
 
 Run the notebook from top to bottom. The dataset and saved outputs are included.
