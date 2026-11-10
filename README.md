@@ -12,12 +12,3 @@ Multinomial Naive Bayes implemented from scratch to classify messages as ham or 
 | f | Choose a validation threshold maximizing recall with ham FPR at most 1%; compare test results with the default rule. |
 
 Test accuracy: **97.94%**. ROC AUC: **0.97579**. Confusion matrix rows are predictions and columns are true labels.
-
-## Run
-
-```bash
-pip install -r requirements.txt
-jupyter notebook Spam-Ham-Classifier.ipynb
-```
-
-Run the notebook from top to bottom. The dataset and saved outputs are included.
