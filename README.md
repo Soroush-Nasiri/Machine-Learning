@@ -1,4 +1,4 @@
-# Ecoli Protein Classification
+# Ecoli Gaussian Classifier
 
 Gaussian classifiers implemented from scratch to predict protein localization from seven features. Retains five classes and uses the required class-wise split: 228 training and 99 test samples.
 
@@ -14,7 +14,7 @@ Test accuracy: **81.82%** for Gaussian NB with floor `1e-4`; **80.81%** for QDA 
 
 ```bash
 pip install -r requirements.txt
-jupyter notebook ML_HW1_Q3_810803098_Nasiri.ipynb
+jupyter notebook Ecoli-Gaussian-Classifier.ipynb
 ```
 
 Run the notebook from top to bottom. The dataset and saved outputs are included.
